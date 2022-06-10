@@ -1,4 +1,6 @@
 <?php
+
+namespace Vlpak\MyPayeerTradeApi;
     
 use Payeer\TradeApiPrototype\Payeer;
     
