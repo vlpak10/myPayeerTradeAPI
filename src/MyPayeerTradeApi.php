@@ -1,30 +1,31 @@
 <?php
-
 namespace Vlpak\MyPayeerTradeApi;
     
 use Payeer\TradeApiPrototype\Payeer;
     
-class Api {
+class MyPayeerTradeApi {
     
     private $api;
 
-    public function __construct(?string $apiId = null, ?string $apiSecret = null) {
+    const DEFAULT_PAIR  = 'BTC_USDT';
+
+    public function __construct($apiId, $apiSecret) {
         $this->api = new Payeer($apiId, $apiSecret);
     }
 
-    public function getInfo($pair) {
+    public function getInfo(?string $pair = null) {
         return $this->api->getInfo($pair);
     }
     
-    public function getTicker($pair) {
+    public function getTicker(string $pair = self::DEFAULT_PAIR) {
         return $this->api->getTicker($pair);
     }
     
-    public function getOrders($pair) {
+    public function getOrders(string $pair = self::DEFAULT_PAIR) {
         return $this->api->getOrders($pair);
     }
     
-    public function getTrades($pair) {
+    public function getTrades(string $pair = self::DEFAULT_PAIR) {
         return $this->api->getTrades($pair);
     }
     
