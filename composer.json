@@ -2,6 +2,7 @@
     "name": "vlpak/my-payeer-trade-api",
     "type": "library",
     "license": "Apache-2.0",
+    "description": "",
     "autoload": {
         "psr-4": {
             "Vlpak\\MyPayeerTradeApi\\": "src/"

@@ -1285,12 +1285,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "2b05bd39cff3b888bd004792722309d8bd743458"
+                "reference": "3351c5f297afbf031e93d6f88cdcc2b85b87e0b8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/2b05bd39cff3b888bd004792722309d8bd743458",
-                "reference": "2b05bd39cff3b888bd004792722309d8bd743458",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/3351c5f297afbf031e93d6f88cdcc2b85b87e0b8",
+                "reference": "3351c5f297afbf031e93d6f88cdcc2b85b87e0b8",
                 "shasum": ""
             },
             "require": {
@@ -1374,7 +1374,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-06-09T06:29:08+00:00"
+            "time": "2022-06-13T15:07:15+00:00"
         },
         {
             "name": "sebastian/cli-parser",
@@ -2194,12 +2194,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/type.git",
-                "reference": "a267b3991b8e7f3020f7e91a7c22772fc159418d"
+                "reference": "d83bca7b6baee348c5fcabc112c6b3f25dae5975"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/type/zipball/a267b3991b8e7f3020f7e91a7c22772fc159418d",
-                "reference": "a267b3991b8e7f3020f7e91a7c22772fc159418d",
+                "url": "https://api.github.com/repos/sebastianbergmann/type/zipball/d83bca7b6baee348c5fcabc112c6b3f25dae5975",
+                "reference": "d83bca7b6baee348c5fcabc112c6b3f25dae5975",
                 "shasum": ""
             },
             "require": {
@@ -2243,7 +2243,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-06-09T06:25:21+00:00"
+            "time": "2022-06-13T06:04:48+00:00"
         },
         {
             "name": "sebastian/version",
@@ -2251,12 +2251,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/version.git",
-                "reference": "faceb449be60d7c072c0411b7eece6cc6a85bf9b"
+                "reference": "77ac4c1df887d971a0cb47fedbfe363e58e32da6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/version/zipball/faceb449be60d7c072c0411b7eece6cc6a85bf9b",
-                "reference": "faceb449be60d7c072c0411b7eece6cc6a85bf9b",
+                "url": "https://api.github.com/repos/sebastianbergmann/version/zipball/77ac4c1df887d971a0cb47fedbfe363e58e32da6",
+                "reference": "77ac4c1df887d971a0cb47fedbfe363e58e32da6",
                 "shasum": ""
             },
             "require": {
@@ -2297,7 +2297,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-04-11T13:40:26+00:00"
+            "time": "2022-06-14T05:06:08+00:00"
         },
         {
             "name": "theseer/tokenizer",
